@@ -1,3 +1,8 @@
+/**
+* @author shine
+* @blog http://blog.ipsfan.com/
+* @version 0.1
+*/ 
 function slider(opts){
 	this.wrapId=opts.domId;
 	this.wrap=document.getElementById(opts.domId);
