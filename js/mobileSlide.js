@@ -114,10 +114,8 @@ slider.prototype.go=function(n){
 	li[cidx-1] && (li[cidx-1].style.webkitTransition='-webkit-transform 0.2s ease-out');
 	li[cidx+1] && (li[cidx+1].style.webkitTransition='-webkit-transform 0.2s ease-out');
 	li[cidx].style.webkitTransform='translate3d(0,0,0)';
-	li[cidx-1] && (li[cidx-1].style.webkitTransform='translate3d(-320px, 0, 0)');
-	li[cidx+1] && (li[cidx+1].style.webkitTransform='translate3d(320px, 0, 0)');
+	li[cidx-1] && (li[cidx-1].style.webkitTransform='translate3d(-'+ scaleW +'px, 0, 0)');
+	li[cidx+1] && (li[cidx+1].style.webkitTransform='translate3d('+scaleW+'px, 0, 0)');
 
 };
-new slider({
-	'domId':"slideBox"
-})
+
