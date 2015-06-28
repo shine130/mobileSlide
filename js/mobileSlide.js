@@ -2,6 +2,7 @@
 * @author shine
 * @blog http://blog.ipsfan.com/
 * @version 0.1
+* @email:shine130@vip.qq.com
 */ 
 function slider(opts){
 	this.wrapId=opts.domId;
